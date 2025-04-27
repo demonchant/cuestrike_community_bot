@@ -15,13 +15,20 @@ logging.basicConfig(level=logging.INFO)
 
 # Define daily schedule (UTC time)
 schedule = [
-    {"date": datetime(2025, 4, 26, 11, 0), "message": "Cuestrike is rising! The future starts now. CueCoin smart contract deployment is close. Stay alert!"},
-    {"date": datetime(2025, 4, 27, 11, 0), "message": "Join the Cuestrike movement early! CueCoin deployment coming. Big rewards for early believers."},
-    {"date": datetime(2025, 4, 28, 11, 0), "message": "Cuestrike is building the future. CueCoin smart contract goes live soon. Community-first, always."},
-    {"date": datetime(2025, 4, 29, 11, 0), "message": "Only 2 days left until Cuestrike deploys CueCoin’s smart contract. History is being written!"},
-    {"date": datetime(2025, 4, 30, 11, 0), "message": "Tomorrow marks a new era. Cuestrike will deploy CueCoin smart contract. True believers win early."},
-    {"date": datetime(2025, 5, 1, 11, 0), "message": "Today is the big day. CueCoin smart contract deployed under the Cuestrike brand tonight!"},
-    {"date": datetime(2025, 5, 1, 20, 0), "message": "CueCoin smart contract is live! Cuestrike community — prepare for full takeover. Airdrop coming soon!"},
+    {"date": datetime(2025, 4, 26, 11, 0), "message": "🚀 The countdown begins for something huge — Cue Coin is launching soon!
+Our smart contract deployment is just around the corner. Get ready for a new era in crypto! #CueCoin #CryptoRevolution"},
+    {"date": datetime(2025, 4, 27, 11, 0), "message": "🔒 We’re getting closer to launching the Cue Coin smart contract!
+The team is working hard behind the scenes. It’s time to prepare for a major shift in the crypto world. Stay tuned! 💥"},
+    {"date": datetime(2025, 4, 28, 11, 0), "message": "⏳ Only a few days left! The Cue Coin smart contract deployment is almost here.
+We are about to change the game. Are you ready for Cue Coin? #Crypto #Blockchain #SmartContract"},
+    {"date": datetime(2025, 4, 29, 11, 0), "message": "📅 Mark your calendars — the Cue Coin smart contract goes LIVE in just 2 days!
+This is the moment we’ve all been waiting for. Don’t miss out on the next big thing in crypto. Let’s make history together!"},
+    {"date": datetime(2025, 4, 30, 11, 0), "message": "🔥 Just 1 day left! The Cue Coin smart contract will be deployed tomorrow!
+Get ready for the revolution. This is the moment we’ve all been working toward. Let’s make it epic! 💎"},
+    {"date": datetime(2025, 5, 1, 11, 0), "message": "🚀 IT’S TIME! The Cue Coin smart contract is officially deployed today!
+The future of crypto is here. Stay tuned for more updates as we take the next steps towards creating a powerful community and ecosystem. #CueCoin #SmartContract #Crypto"},
+    {"date": datetime(2025, 5, 1, 20, 0), "message": "💥 Cue Coin smart contract is LIVE!
+The journey has officially begun, and the possibilities are endless. Stay with us for exciting developments, airdrops, and much more. Thank you for being part of this journey! 🌍🚀"},
 ]
 
 async def send_scheduled_messages():
